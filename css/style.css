@@ -72,9 +72,42 @@ header .title .p2{
     font-weight: 400;
     font-size: 20px;
 }
-header .inputs{
+header .inputs, header .inputs div{
     display: flex;
     justify-content: center;
 }
+header .inputs div{
+    width: 80%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
 
+header .inputs input[type="email"]{
+    height: 60px;
+    max-height: 60px;
+    border: none;
+    padding: 10px;
+    width: 42%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+    min-width: 500px;
+    margin: 1px;
+}
+header .inputs input[type="button"]{
+    background-color: #e50914;
+    color: #fff;
+    width: 18%;
+    min-width: 170px;
+    padding: 15px;
+    margin: 1px;
+    border: none;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+section{
+    background-color: #333;
+    height: 200px;
+}
 
