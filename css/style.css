@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+}
+header{
+    background-image: url(../img/background_netflix.jpg);
+    background-color: rgba(0,0,0,0.2);
+    background-position: center;
+    background-blend-mode:color-burn ;
+    background-size: cover;
+    height: 100vh;
+}
+header .icon_lang_session{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+header .icon_lang_session .svg-icon{
+    margin: 25px 50px;
+    fill: #e50914;
+}
+header .icon_lang_session .rigth{
+    margin: auto 50px;
+}
+header .icon_lang_session .rigth a{
+    padding: 9px 18px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 3px;
+}
+
+header .icon_lang_session .rigth select{
+    height: 35px;
+    padding: 5px 10px;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+header .icon_lang_session .rigth select option{
+    background-color: rgb(114, 114, 114);
+    border: none ;
+}
+
+header .title{
+    margin-top: 135px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+header .title h1{
+    font-size: 48px;
+    width: 640px;
+    margin: auto auto;
+
+}
+header .title .p1{
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 28px;
+}
+header .title .p2{
+    font-weight: 400;
+    font-size: 20px;
+}
+header .inputs{
+    display: flex;
+    justify-content: center;
+}
+
+
